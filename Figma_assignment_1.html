@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Figma Assignment</title>
+    <link rel="stylesheet" href="Figma_assignment_1.css">
+</head>
+<body>
+    
+    <section class="left">
+
+         <div class="logo_container">
+        <img src="logo.png" alt="logo"
+            class="logo" />
+
+        <h2>For Individuals</h2>
+        <p>Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.
+        </p>
+    </section>
+
+    <section class="right">
+        <div class="form">
+            <div style="float: left; width: 50%;">
+                <label for="name" style="display: block;">First name</label>
+                <input type="text" id="name" name="name" required placeholder="Tolu">
+            </div> 
+           
+            <div style="float: left; width: 50%;">
+                <label for="name" style="display: block;">Last Name</label>
+                <input type="text" id="last_name" name="last_name">
+            </div> 
+            <div style="clear: both;"></div>
+
+            <div style="float: left; width: 50%;">
+                <label for="gender" style="display: block;">Gender</label>
+                <select id="gender" name="gender" required>
+                    <option value="" disabled selected>Select here</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div style="float: left; width: 50%;">
+                <label for="date_of_birth" style="display: block;">Date of Birth</label>
+                <input type="date" id="date_of_birth" name="date_of_birth" required placeholder="mm/dd/yyyy">
+            </div>
+            <div style="clear: both;"></div>
+
+            <div style="float: left; width: 50%;">
+                <label for="weight" style="display: block;">Weight (KG)</label>
+                <input type="text" id="weight" name="weight">
+            </div> 
+           
+            <div style="float: left; width: 50%;">
+                <label for="height" style="display: block;">Height (CM)</label>
+                <input type="text" id="height" name="height">
+            </div> 
+            <div style="clear: both;"></div>
+            
+            <div>
+                <label for="activity_level" style="display: block;">Activity Level</label>
+                <select id="activity_level" name="activity_level" required style="width: 100%;">
+                    <option value="" disabled selected>Select here</option>
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+            </div>
+            
+            
+            <div style="position: relative;">
+                <label for="password" style="display: block;">Password</label>
+                <input type="password" id="password" style="width: calc(100% - 24px); padding-right: 24px;" placeholder="👁">
+            </div>
+            
+            <button class="register-button">Register</button>
+
+            <div class="terms">
+                <span>By clicking Register, you agree to our </span>
+                <span class="terms-link">Terms of Use</span>
+                <span class="terms"> and our </span>
+                <span class="terms-link">Privacy Policy</span>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
